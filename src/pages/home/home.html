@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Ionic Web Components</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label>Daenerys Targaryen</ion-label>
+      <ion-checkbox [(ngModel)]="checked"></ion-checkbox>
+    </ion-item>
+
+    <div class="item item-block item-md item-checkbox item-checkbox-checked">
+      <ion-checkbox-wc [(ngModel)]="checked"></ion-checkbox-wc>
+      <div class="item-inner">
+        <div class="input-wrapper">
+          <ion-label class="label label-md" id="lbl-0">Daenerys Targaryen</ion-label>
+        </div>
+        <div class="button-effect"></div>
+      </div>
+    </div>
+
+  </ion-list>
+
+</ion-content>
